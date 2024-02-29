@@ -26,7 +26,7 @@ const HeroSection = () => {
                 href={"/contact"}
                 class="hover:text-white border hover:bg-transparent border-white bg-white text-[#0588b0] duration-500 transition-all font-medium shadow-md rounded-md lg:text-[16px] text-[12px] px-8 py-3 text-center flex justify-center items-start uppercase tracking-wide"
               >
-                let's connect
+              {`let's connect`}
               </Link>
           </div>
             </div>

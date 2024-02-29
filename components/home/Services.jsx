@@ -9,7 +9,7 @@ const Services = () => {
         <div className='flex flex-col justify-center items-center gap-3 '>
 
 <h2 className='lg:text-[32px] text-[#2f327d] text-[22px] font-bold capitalize text-center'> SERVICES WE OFFER</h2>
-<p className='font-medium text-gray-500 text-center text-[16px] tracking-wide leading-7'>Our web development team combines years of experience with an understanding of the most up-to-date programming skills and approaches. When we build your app, we'll leverage the latest development innovations. The entire process is built around your precise specifications and requirements.</p>
+<p className='font-medium text-gray-500 text-center text-[16px] tracking-wide leading-7'>{`Our web development team combines years of experience with an understanding of the most up-to-date programming skills and approaches. When we build your app, we'll leverage the latest development innovations. The entire process is built around your precise specifications and requirements.`}</p>
 </div>
 <div className='grid  grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 mt-10 '>
 <div className="relative   bg-gray-50 rounded-2xl p-4  shadow shadow-sky-800 flex flex-col justify-end gap-8 items-stretch">
