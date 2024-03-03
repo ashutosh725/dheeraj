@@ -9,7 +9,7 @@ const Blogs = () => {
     <div className='bg-white pb-10'>
       <div className='container mx-auto'>
       <div className={`flex flex-col justify-center items-center space-y-2 py-10 `}>
-          <h3 className='text-black text-center lg:text-[34px] text-[28px] font-[700]'>Popular <span className=''>News</span></h3>
+          <h3 className='text-[#2f327d] text-center lg:text-[34px] text-[28px] font-[700]'>Popular <span className=''>News</span></h3>
           <span className='text-[#696984] text-center lg:text-[22px] text-[16px] font-[400]'>Explore our comprehensive news articles to stay ahead in the know.
 </span>
         </div>

@@ -21,6 +21,13 @@ module.exports = {
         secondary: "#64dfcb",
         body: "#7d8f9e"
       },
+      fontFamily: {
+        Roboto: ['Roboto Slab', 'serif'],
+      
+        
+      
+        
+      },
     },
   },
   plugins: [],

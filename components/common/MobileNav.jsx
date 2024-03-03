@@ -29,7 +29,7 @@ const MobileNav = ({ onLinkClick }) => {
     setCoursesDropdownOpen(false);
   };
   return (
-    <div className=" bg-white z-50   py-7 fixed w-full  lg:py-0 shadow">
+    <div className=" bg-white z-50 top-0  py-7 fixed  w-full  lg:py-0 shadow">
       <div className="container mx-auto">
         <ul className="lg:hidden relative flex flex-col justify-center items-start gap-5 mx-4">
           <Link

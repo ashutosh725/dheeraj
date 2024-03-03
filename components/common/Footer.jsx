@@ -5,7 +5,8 @@ import { IoLocationOutline , IoCallOutline} from "react-icons/io5";
 import { FaFacebookF, FaTwitter , FaLinkedinIn, FaInstagram, FaYoutube   } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import React from 'react'
-
+import Image from 'next/image';
+import Logo from "../../public/2.png"
 const Footer = () => {
   return (
     <div className='bg-blue-500 text-white'>
@@ -13,7 +14,7 @@ const Footer = () => {
     <div className='flex flex-wrap  lg:flex-row justify-between items-start gap-4 pt-14 pb-8 '>
         <div className='flex flex-1 flex-col justify-center items-start gap-3'>
             <div>
-               logo image
+            <Image src={Logo} alt='logo' className='h-24 w-32 object-cover'/>
             </div>
             <h1 className="text-[14px] text-white font-medium tracking-wider">Company,<br/>Training For Success,<br/> Solution For Tomorrow</h1>
             <ul className='flex justify-start items-center gap-2  '>
@@ -57,17 +58,17 @@ const Footer = () => {
            </div>
            <div className='flex justify-center items-center gap-3'>
            <AiOutlineMail className='text-white text-[30px]'/>
-           <span className='text-white'>ashutosharma50@gmail.com</span>
+           <span className='text-white'>company0@gmail.com</span>
            </div>
            <div className='flex justify-center items-center gap-3'>
            <IoCallOutline className='text-white text-[30px]'/>
-           <span className='text-white'>+91 8769206069</span>
+           <span className='text-white'>+91 123456789</span>
            </div>
         </div>
     </div>
     <hr/>
  <div className='flex flex-col lg:flex-row justify-between lg:items-center items-start py-7 '>
-    <span className='text-white'>© Copyright 2024. Ashutosh </span>
+    <span className='text-white'>© Copyright 2024. Dheeraj </span>
     <span className='text-white cursor-pointer '><Link href={'/refund-policy'} >Refund Policy</Link> | <Link href={'/privacy-policy'}>Privacy Policy</Link> | <Link href={'/terms-and-conditions'}>Terms & Conditions</Link></span>
  </div>
 

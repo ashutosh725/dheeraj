@@ -1,25 +1,25 @@
 import Image from "next/image";
 import React from "react";
+import AboutUs from "../../public/about.png"
 
 const About = () => {
   return (
     <div className=" ">
     <div className="container mx-auto">
-      <div className="flex flex-col lg:flex-row justify-center items-start  py-20 gap-8">
-        <div className="">
+      <div className="flex flex-col lg:flex-row justify-center items-center  py-20 gap-8">
+        <div className="lg:w-1/2 w-full">
           <Image
-            src={"/whower.png"}
-            width={500}
-            height={300}
-            alt=""
+            src={AboutUs}
+          
+            alt="about us"
             className="object-contain"
           />
         </div>
         <div className="lg:w-1/2 w-full flex flex-col justify-center items-start lg:gap-3 gap-3">
-          <span className=" text-blue-500 text-center lg:text-[20px] text-[18px] font-medium uppercase">
+          <p className=" text-blue-500 text-center lg:text-[20px] text-[18px] font-medium uppercase">
             About Us
-          </span>
-          <h3 className="text-black lg:text-[34px] text-[22px] font-[700]">
+          </p>
+          <h3 className="text-[#2f327d] lg:text-[34px] text-[22px] font-[700]">
             We Provide Quality Business & Smart Solution
           </h3>
           <span className="lg:text-[16px] text-[14px] text-[#6d6d6d] font-medium leading-6">

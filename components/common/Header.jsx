@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import MobileNav from "./MobileNav";
-
+import Logo from "../../public/2.png"
 
 
 
@@ -31,7 +31,7 @@ const Header = () => {
       <div className="container  mx-auto ">
       <div className='flex justify-between items-center h-20'>
     <div>
-        <h3>logo</h3>
+    <Image src={Logo} alt="logo" className=" w-32 h-18 object-cover"/>
     </div>
     <ul className='flex justify-center items-center gap-6'>
         <li><Link href={'/'} className='hidden lg:flex  text-[15px] font-Roboto tracking-wide font-[400]  hover:text-primary duration-300 transition-all'>Home</Link></li>
