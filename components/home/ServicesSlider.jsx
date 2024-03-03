@@ -126,12 +126,12 @@ export default function ServicesSlider() {
                         Full Range of Software Development Services
                       </h3>
                       <p className="text-white leading-6 text-ltiny">
-                        From custom software development with the latest tech to
+                        {`From custom software development with the latest tech to
                         automated quality assurance, you get all types of
                         software development services to help you build,
                         sustain, and modernise enterprise software — as well as
                         our extensive 10-year expertise in building IT
-                        solutions.
+                        solutions.`}
                       </p>
                       <ul className="w-full text-white text-base md:grid grid-cols-12 gap-3 pt-2 space-y-1.5 md:space-y-0">
                         <li className="flex items-center col-span-6 bg-blue-600 py-1 px-2 rounded-sm md:bg-transparent md:py-0 md:px-0">
@@ -203,13 +203,13 @@ export default function ServicesSlider() {
                         Social media advertising services for every business
                       </h3>
                       <p className="text-white leading-6 text-ltiny">
-                        ADA is a leading social media marketing agency with a
+                        {`ADA is a leading social media marketing agency with a
                         focus on driving impactful business growth through
                         social media services. Whether you are looking to
                         enhance your brand's social media presence or drive
                         targeted leads through social media advertising, our
                         social media advertising services can help you hit your
-                        goals.
+                        goals.`}
                       </p>
                       <ul className="w-full text-white text-base md:grid grid-cols-12 gap-3 pt-2 space-y-1.5 md:space-y-0">
                         <li className="flex items-center col-span-6 bg-blue-600 py-1 px-2 rounded-sm md:bg-transparent md:py-0 md:px-0">
@@ -281,13 +281,13 @@ export default function ServicesSlider() {
                         SEO Services That Drive Business Growth
                       </h3>
                       <p className="text-white leading-6 text-ltiny">
-                        ADA is the best SEO agency in the world — and we have
+                       {` ADA is the best SEO agency in the world — and we have
                         the track record to prove it. No matter what marketing
                         goals you have for your company, BDA can help increase
                         your bottom line with an SEO campaign that is
                         specifically designed for your unique business. Start
                         earning more qualified search traffic to your website
-                        today with our search engine optimization services.
+                        today with our search engine optimization services.`}
                       </p>
                       <ul className="w-full text-white text-base md:grid grid-cols-12 gap-3 pt-2 space-y-1.5 md:space-y-0">
                         <li className="flex items-center col-span-6 bg-blue-600 py-1 px-2 rounded-sm md:bg-transparent md:py-0 md:px-0">
